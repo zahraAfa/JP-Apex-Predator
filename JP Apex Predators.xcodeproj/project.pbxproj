@@ -11,6 +11,11 @@
 		9B3675E12A494B5500C65E79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3675E02A494B5500C65E79 /* ContentView.swift */; };
 		9B3675E32A494B5800C65E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3675E22A494B5800C65E79 /* Assets.xcassets */; };
 		9B3675E62A494B5800C65E79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3675E52A494B5800C65E79 /* Preview Assets.xcassets */; };
+		9B3675ED2A494DA100C65E79 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B3675EC2A494DA000C65E79 /* jpapexpredators.json */; };
+		9B3675EF2A49509500C65E79 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3675EE2A49509500C65E79 /* ApexPredator.swift */; };
+		9B3675F12A49523700C65E79 /* PredatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3675F02A49523700C65E79 /* PredatorController.swift */; };
+		9B3675F32A4A850D00C65E79 /* PreditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3675F22A4A850D00C65E79 /* PreditorRow.swift */; };
+		9B3675F52A4AC8F000C65E79 /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3675F42A4AC8F000C65E79 /* PredatorDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		9B3675E02A494B5500C65E79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B3675E22A494B5800C65E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B3675E52A494B5800C65E79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B3675EC2A494DA000C65E79 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		9B3675EE2A49509500C65E79 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		9B3675F02A49523700C65E79 /* PredatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorController.swift; sourceTree = "<group>"; };
+		9B3675F22A4A850D00C65E79 /* PreditorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreditorRow.swift; sourceTree = "<group>"; };
+		9B3675F42A4AC8F000C65E79 /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				9B3675DE2A494B5500C65E79 /* JP_Apex_PredatorsApp.swift */,
+				9B3675EE2A49509500C65E79 /* ApexPredator.swift */,
+				9B3675F02A49523700C65E79 /* PredatorController.swift */,
 				9B3675E02A494B5500C65E79 /* ContentView.swift */,
+				9B3675F42A4AC8F000C65E79 /* PredatorDetail.swift */,
+				9B3675F22A4A850D00C65E79 /* PreditorRow.swift */,
+				9B3675EC2A494DA000C65E79 /* jpapexpredators.json */,
 				9B3675E22A494B5800C65E79 /* Assets.xcassets */,
 				9B3675E42A494B5800C65E79 /* Preview Content */,
 			);
@@ -127,6 +142,7 @@
 			files = (
 				9B3675E62A494B5800C65E79 /* Preview Assets.xcassets in Resources */,
 				9B3675E32A494B5800C65E79 /* Assets.xcassets in Resources */,
+				9B3675ED2A494DA100C65E79 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3675F32A4A850D00C65E79 /* PreditorRow.swift in Sources */,
+				9B3675F12A49523700C65E79 /* PredatorController.swift in Sources */,
+				9B3675EF2A49509500C65E79 /* ApexPredator.swift in Sources */,
+				9B3675F52A4AC8F000C65E79 /* PredatorDetail.swift in Sources */,
 				9B3675E12A494B5500C65E79 /* ContentView.swift in Sources */,
 				9B3675DF2A494B5500C65E79 /* JP_Apex_PredatorsApp.swift in Sources */,
 			);
@@ -270,6 +290,7 @@
 				DEVELOPMENT_TEAM = 6BD73LNNS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JP Predators";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +320,7 @@
 				DEVELOPMENT_TEAM = 6BD73LNNS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JP Predators";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
